@@ -92,3 +92,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f89fdaff3b6d0cc4cb858434691adddf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isGood: 1
+  GoodMaterial: {fileID: 2100000, guid: af9aa942f3d937343a13ee2bc1966019, type: 2}
+  BadMaterial: {fileID: 2100000, guid: 1f8e101a81f60d645938f87c1055b621, type: 2}
