@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public int ThisPlatform;
     public float BounceSpeed;
     public Rigidbody Rigidbody;
     public Platform CurrentPlatform;

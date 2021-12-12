@@ -10,6 +10,7 @@ namespace Assets.Scripts
             if (other.TryGetComponent(out Player player))
             {
                 player.CurrentPlatform = this;
+                player.ThisPlatform++;
             }
         }
     }
