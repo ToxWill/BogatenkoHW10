@@ -7,6 +7,7 @@ public class Sector : MonoBehaviour
     public bool isGood = true;
     public Material GoodMaterial;
     public Material BadMaterial;
+    public AudioSource SoundBounce;
 
     private void Awake()
     {
@@ -28,7 +29,10 @@ public class Sector : MonoBehaviour
         if (dot < 0.5) return;
 
         if (isGood)
+        {
             player.Bouce();
+            SoundBounce.Play();
+        }
         else
             player.Die();
     }
