@@ -54,7 +54,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 803d3d8591fc3a44193ecf88435480ee, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: af9aa942f3d937343a13ee2bc1966019, type: 2}
+      objectReference: {fileID: 2100000, guid: b7decb3b71b8e084fb889cbe2c3432c1, type: 2}
     - target: {fileID: 919132149155446097, guid: 803d3d8591fc3a44193ecf88435480ee, type: 3}
       propertyPath: m_Name
       value: sector
@@ -189,6 +189,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isGood: 1
-  GoodMaterial: {fileID: 2100000, guid: af9aa942f3d937343a13ee2bc1966019, type: 2}
-  BadMaterial: {fileID: 2100000, guid: 1f8e101a81f60d645938f87c1055b621, type: 2}
+  GoodMaterial: {fileID: 2100000, guid: b7decb3b71b8e084fb889cbe2c3432c1, type: 2}
+  BadMaterial: {fileID: 2100000, guid: 2759b34a5a82c98469806a4ac5859cdf, type: 2}
   SoundBounce: {fileID: 8782625359771117077}

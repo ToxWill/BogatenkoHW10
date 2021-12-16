@@ -22,6 +22,7 @@ public class Sector : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+
         if (!collision.collider.TryGetComponent(out Player player)) return;
 
         Vector3 normal = -collision.contacts[0].normal.normalized;

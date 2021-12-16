@@ -20,6 +20,7 @@ public class Game : MonoBehaviour
 
         CurrentState = State.Loss;
         Controls.enabled = false;
+        //StartCoroutine(Wait(waitTime: 5f));
         Debug.Log("Game Over!");
         ReloadLevel();
     }
@@ -51,4 +52,9 @@ public class Game : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+    /*IEnumerator Wait(float waitTime)
+    {
+        yield return new WaitForSeconds(waitTime = 5f);
+    }*/
 }
