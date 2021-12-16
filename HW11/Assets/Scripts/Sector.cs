@@ -9,6 +9,7 @@ public class Sector : MonoBehaviour
     public Material BadMaterial;
     public AudioSource SoundBounce;
 
+
     private void Awake()
     {
         UpdateMaterial();
@@ -42,4 +43,5 @@ public class Sector : MonoBehaviour
     {
         UpdateMaterial();
     }
+
 }

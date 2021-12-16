@@ -154,6 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Controls: {fileID: 1871523028}
+  PlayerMaterial: {fileID: 2100000, guid: b3f0b4d40d97bb84881ca73034533e1d, type: 2}
 --- !u!4 &199025244
 Transform:
   m_ObjectHideFlags: 0
@@ -362,6 +363,16 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 281339721}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &357220546 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5115464793706171569, guid: f8270d9f05495094a822c5f176fe39bb, type: 3}
+  m_PrefabInstance: {fileID: 906636279}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &357220548 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5115464793706171566, guid: f8270d9f05495094a822c5f176fe39bb, type: 3}
+  m_PrefabInstance: {fileID: 906636279}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &579031241
 GameObject:
   m_ObjectHideFlags: 0
@@ -741,6 +752,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 480636309383090893, guid: 6e8ce4183e3a48d4ca0b3abc273e7e7b, type: 3}
   m_PrefabInstance: {fileID: 618229477}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &906636279
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1426374453}
+    m_Modifications:
+    - target: {fileID: 5115464793706171564, guid: f8270d9f05495094a822c5f176fe39bb, type: 3}
+      propertyPath: m_Name
+      value: Splash
+      objectReference: {fileID: 0}
+    - target: {fileID: 5115464793706171569, guid: f8270d9f05495094a822c5f176fe39bb, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5115464793706171569, guid: f8270d9f05495094a822c5f176fe39bb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5115464793706171569, guid: f8270d9f05495094a822c5f176fe39bb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.48099998
+      objectReference: {fileID: 0}
+    - target: {fileID: 5115464793706171569, guid: f8270d9f05495094a822c5f176fe39bb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.013000011
+      objectReference: {fileID: 0}
+    - target: {fileID: 5115464793706171569, guid: f8270d9f05495094a822c5f176fe39bb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5115464793706171569, guid: f8270d9f05495094a822c5f176fe39bb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5115464793706171569, guid: f8270d9f05495094a822c5f176fe39bb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5115464793706171569, guid: f8270d9f05495094a822c5f176fe39bb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5115464793706171569, guid: f8270d9f05495094a822c5f176fe39bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5115464793706171569, guid: f8270d9f05495094a822c5f176fe39bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5115464793706171569, guid: f8270d9f05495094a822c5f176fe39bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f8270d9f05495094a822c5f176fe39bb, type: 3}
 --- !u!1 &922441989
 GameObject:
   m_ObjectHideFlags: 0
@@ -1384,7 +1452,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.928, z: -4.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 357220546}
   m_Father: {fileID: 199025244}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1421,7 +1490,7 @@ MonoBehaviour:
   Rigidbody: {fileID: 1426374454}
   CurrentPlatform: {fileID: 0}
   Game: {fileID: 199025243}
-  death: {fileID: 2100000, guid: b3f0b4d40d97bb84881ca73034533e1d, type: 2}
+  Splash: {fileID: 357220548}
 --- !u!1 &1459363550
 GameObject:
   m_ObjectHideFlags: 0
